@@ -9,7 +9,7 @@ class KeyFinder():
 
     def __init__(self, file):
 
-        # template profiles for major and minor keys as described here:
+        # template major and minor profiles as described here:
         # https://www.researchgate.net/publication/226939732_A_Theory_of_Tonal_Hierarchies_in_Music
         major_profile = np.asarray([6.35, 2.23, 3.48, 2.33, 4.38, 
                             4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 2.88])
